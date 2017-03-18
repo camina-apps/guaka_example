@@ -1,0 +1,189 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Flags"
+provides-nominal:
+- "V5Guaka5Flags"
+provides-member:
+- ["V5Guaka5Flags", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "Array"
+- "Flags"
+- "Flag"
+- "Int"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "String"
+- "FlagValue"
+depends-member:
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "values"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "values"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs10Dictionary", "values"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "values"]
+- !private ["V5Guaka4Flag", "value"]
+- !private ["V5Guaka5Flags", "Array"]
+- ["V5Guaka5Flags", "Bool"]
+- ["V5Guaka5Flags", "Flag"]
+- ["V5Guaka5Flags", "FlagValue"]
+- ["V5Guaka5Flags", "Int"]
+- ["V5Guaka5Flags", "String"]
+- ["V5Guaka5Flags", "flags"]
+- ["V5Guaka5Flags", "flagsDict"]
+- ["V5Guaka5Flags", "get"]
+- ["V5Guaka5Flags", "getBool"]
+- ["V5Guaka5Flags", "getInt"]
+- ["V5Guaka5Flags", "getString"]
+- ["V5Guaka5Flags", "init"]
+- ["V5Guaka5Flags", "subscript"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps9Indexable", "values"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Ps13IndexableBase", "values"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps22LazyCollectionProtocol", "Iterator"]
+- !private ["Vs17LazyMapCollection", "Iterator"]
+- !private ["Vs15LazyMapIterator", "Element"]
+- !private ["Ps20LazySequenceProtocol", "Iterator"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "values"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["SS", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps9_Hashable", "value"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "V5Guaka4Flag"
+- "V5Guaka5Flags"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Vs17LazyMapCollection"
+- !private "Vs15LazyMapIterator"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- !private "SS"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.swiftmodule"
+interface-hash: "d94ee092785b07e479d620be753b141f"

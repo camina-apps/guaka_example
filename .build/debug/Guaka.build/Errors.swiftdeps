@@ -1,0 +1,48 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommandError"
+provides-nominal:
+- "O5Guaka12CommandError"
+provides-member:
+- ["O5Guaka12CommandError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Error"
+- "CommandError"
+- "Command"
+depends-member:
+- ["O5Guaka12CommandError", "Command"]
+- ["O5Guaka12CommandError", "Error"]
+- ["O5Guaka12CommandError", "String"]
+- ["O5Guaka12CommandError", "_code"]
+- ["O5Guaka12CommandError", "_domain"]
+- ["O5Guaka12CommandError", "_getEmbeddedNSError"]
+- ["O5Guaka12CommandError", "_userInfo"]
+- ["O5Guaka12CommandError", "commandGeneralError"]
+- ["O5Guaka12CommandError", "deinit"]
+- ["O5Guaka12CommandError", "flagNeedsValue"]
+- ["O5Guaka12CommandError", "flagNotFound"]
+- ["O5Guaka12CommandError", "incorrectFlagValue"]
+- ["O5Guaka12CommandError", "requiredFlagsWasNotSet"]
+- ["O5Guaka12CommandError", "unexpectedFlagPassed"]
+- ["O5Guaka12CommandError", "unknownError"]
+- ["O5Guaka12CommandError", "wrongCommandUsageString"]
+- ["O5Guaka12CommandError", "wrongFlagLongName"]
+- ["O5Guaka12CommandError", "wrongFlagPattern"]
+- ["O5Guaka12CommandError", "wrongFlagShortName"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", ""]
+depends-nominal:
+- "O5Guaka12CommandError"
+- "Ps5Error"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.swiftmodule"
+interface-hash: "abb37cd4af544242d89ff67620da595d"

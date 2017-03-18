@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FlagValue"
+- "FlagValueError"
+provides-nominal:
+- "P5Guaka9FlagValue"
+- "O5Guaka14FlagValueError"
+- "Sb"
+- "Si"
+- "SS"
+provides-member:
+- ["P5Guaka9FlagValue", ""]
+- ["O5Guaka14FlagValueError", ""]
+- ["Sb", ""]
+- ["Si", ""]
+- ["SS", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Int"
+- !private "UnicodeScalarType"
+- !private "=="
+- "FlagValue"
+- "Error"
+- "FlagValueError"
+- !private "StringLiteralType"
+- "String"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps17BitwiseOperations", "FlagValueError"]
+- !private ["Ps17BitwiseOperations", "Int"]
+- ["Ps17BitwiseOperations", "fromString"]
+- !private ["Ps17BitwiseOperations", "init"]
+- ["Ps17BitwiseOperations", "typeDescription"]
+- ["Sb", "Bool"]
+- !private ["Sb", "FlagValueError"]
+- ["Sb", "String"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Sb", "fromString"]
+- !private ["Sb", "init"]
+- ["Sb", "typeDescription"]
+- !private ["Ps7CVarArg", "FlagValueError"]
+- !private ["Ps7CVarArg", "Int"]
+- ["Ps7CVarArg", "fromString"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "typeDescription"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "FlagValueError"]
+- !private ["Ps10Comparable", "Int"]
+- ["Ps10Comparable", "fromString"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "typeDescription"]
+- ["Ps28CustomDebugStringConvertible", "fromString"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "typeDescription"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Bool"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "FlagValueError"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Int"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "fromString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "typeDescription"]
+- !private ["Ps17CustomReflectable", "Bool"]
+- !private ["Ps17CustomReflectable", "FlagValueError"]
+- !private ["Ps17CustomReflectable", "Int"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "fromString"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "typeDescription"]
+- !private ["Ps23CustomStringConvertible", "Bool"]
+- !private ["Ps23CustomStringConvertible", "FlagValueError"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "fromString"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "typeDescription"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Bool"]
+- !private ["Ps9Equatable", "FlagValueError"]
+- !private ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "fromString"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "typeDescription"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "conversionError"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Bool"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "FlagValueError"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps27ExpressibleByBooleanLiteral", "fromString"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- ["Ps27ExpressibleByBooleanLiteral", "typeDescription"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "fromString"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "typeDescription"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "FlagValueError"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Int"]
+- ["Ps27ExpressibleByIntegerLiteral", "fromString"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "typeDescription"]
+- ["Ps32ExpressibleByStringInterpolation", "fromString"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "typeDescription"]
+- ["Ps26ExpressibleByStringLiteral", "fromString"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "typeDescription"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "fromString"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "typeDescription"]
+- !private ["P5Guaka9FlagValue", "Bool"]
+- !private ["P5Guaka9FlagValue", "FlagValueError"]
+- !private ["P5Guaka9FlagValue", "Int"]
+- ["P5Guaka9FlagValue", "String"]
+- !private ["P5Guaka9FlagValue", "_getBuiltinLogicValue"]
+- ["P5Guaka9FlagValue", "fromString"]
+- !private ["P5Guaka9FlagValue", "init"]
+- ["P5Guaka9FlagValue", "typeDescription"]
+- ["P5Guaka9FlagValue", ""]
+- ["O5Guaka14FlagValueError", "String"]
+- ["O5Guaka14FlagValueError", "_code"]
+- ["O5Guaka14FlagValueError", "_domain"]
+- ["O5Guaka14FlagValueError", "_getEmbeddedNSError"]
+- ["O5Guaka14FlagValueError", "_userInfo"]
+- ["O5Guaka14FlagValueError", "conversionError"]
+- ["O5Guaka14FlagValueError", "deinit"]
+- ["O5Guaka14FlagValueError", "error"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Bool"]
+- !private ["Ps8Hashable", "FlagValueError"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "fromString"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "typeDescription"]
+- !private ["Si", "FlagValueError"]
+- ["Si", "Int"]
+- ["Si", "String"]
+- ["Si", "deinit"]
+- ["Si", "fromString"]
+- !private ["Si", "init"]
+- ["Si", "typeDescription"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "FlagValueError"]
+- !private ["Ps7Integer", "Int"]
+- ["Ps7Integer", "fromString"]
+- !private ["Ps7Integer", "init"]
+- ["Ps7Integer", "typeDescription"]
+- !private ["Ps17IntegerArithmetic", "FlagValueError"]
+- !private ["Ps17IntegerArithmetic", "Int"]
+- ["Ps17IntegerArithmetic", "fromString"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["Ps17IntegerArithmetic", "typeDescription"]
+- !private ["Ps25LosslessStringConvertible", "Bool"]
+- !private ["Ps25LosslessStringConvertible", "FlagValueError"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "fromString"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "typeDescription"]
+- !private ["Ps10MirrorPath", "FlagValueError"]
+- !private ["Ps10MirrorPath", "Int"]
+- ["Ps10MirrorPath", "fromString"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps10MirrorPath", "typeDescription"]
+- !private ["Ps13SignedInteger", "FlagValueError"]
+- !private ["Ps13SignedInteger", "Int"]
+- ["Ps13SignedInteger", "fromString"]
+- !private ["Ps13SignedInteger", "init"]
+- ["Ps13SignedInteger", "typeDescription"]
+- !private ["Ps12SignedNumber", "FlagValueError"]
+- !private ["Ps12SignedNumber", "Int"]
+- ["Ps12SignedNumber", "fromString"]
+- !private ["Ps12SignedNumber", "init"]
+- ["Ps12SignedNumber", "typeDescription"]
+- !private ["Ps10Strideable", "FlagValueError"]
+- !private ["Ps10Strideable", "Int"]
+- ["Ps10Strideable", "fromString"]
+- !private ["Ps10Strideable", "init"]
+- ["Ps10Strideable", "typeDescription"]
+- ["SS", "String"]
+- ["SS", "deinit"]
+- ["SS", "fromString"]
+- !private ["SS", "init"]
+- ["SS", "typeDescription"]
+- ["Ps16TextOutputStream", "fromString"]
+- !private ["Ps16TextOutputStream", "init"]
+- ["Ps16TextOutputStream", "typeDescription"]
+- ["Ps20TextOutputStreamable", "fromString"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Ps20TextOutputStreamable", "typeDescription"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "Bool"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "FlagValueError"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "fromString"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "typeDescription"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "fromString"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "typeDescription"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "FlagValueError"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Int"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "fromString"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "typeDescription"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "fromString"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "typeDescription"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "fromString"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "typeDescription"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "fromString"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "typeDescription"]
+- !private ["Ps9_Hashable", "Bool"]
+- !private ["Ps9_Hashable", "FlagValueError"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "fromString"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "typeDescription"]
+- !private ["Ps14_Incrementable", "FlagValueError"]
+- !private ["Ps14_Incrementable", "Int"]
+- ["Ps14_Incrementable", "fromString"]
+- !private ["Ps14_Incrementable", "init"]
+- ["Ps14_Incrementable", "typeDescription"]
+- !private ["Ps8_Integer", "FlagValueError"]
+- !private ["Ps8_Integer", "Int"]
+- ["Ps8_Integer", "fromString"]
+- !private ["Ps8_Integer", "init"]
+- ["Ps8_Integer", "typeDescription"]
+- !private ["Ps18_IntegerArithmetic", "FlagValueError"]
+- !private ["Ps18_IntegerArithmetic", "Int"]
+- ["Ps18_IntegerArithmetic", "fromString"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- ["Ps18_IntegerArithmetic", "typeDescription"]
+- !private ["Ps14_SignedInteger", "FlagValueError"]
+- !private ["Ps14_SignedInteger", "Int"]
+- ["Ps14_SignedInteger", "fromString"]
+- !private ["Ps14_SignedInteger", "init"]
+- ["Ps14_SignedInteger", "typeDescription"]
+- !private ["Ps11_Strideable", "FlagValueError"]
+- !private ["Ps11_Strideable", "Int"]
+- ["Ps11_Strideable", "fromString"]
+- !private ["Ps11_Strideable", "init"]
+- ["Ps11_Strideable", "typeDescription"]
+depends-nominal:
+- "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P5Guaka9FlagValue"
+- "O5Guaka14FlagValueError"
+- !private "Sf"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.swiftmodule"
+interface-hash: "d27dc13e21bd4e47561d4d49ee177f94"

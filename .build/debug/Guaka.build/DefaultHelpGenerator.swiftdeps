@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultHelpGenerator"
+provides-nominal:
+- "V5Guaka20DefaultHelpGenerator"
+provides-member:
+- ["V5Guaka20DefaultHelpGenerator", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DefaultHelpGenerator"
+- "AssignmentPrecedence"
+- "CommandHelp"
+- "HelpGenerator"
+depends-member:
+- ["V5Guaka20DefaultHelpGenerator", "CommandHelp"]
+- ["V5Guaka20DefaultHelpGenerator", "aliasesSection"]
+- ["V5Guaka20DefaultHelpGenerator", "commandDescriptionSection"]
+- ["V5Guaka20DefaultHelpGenerator", "commandHelp"]
+- ["V5Guaka20DefaultHelpGenerator", "deinit"]
+- ["V5Guaka20DefaultHelpGenerator", "deprecationMessage"]
+- ["V5Guaka20DefaultHelpGenerator", "deprecationSection"]
+- ["V5Guaka20DefaultHelpGenerator", "errorHelpMessage"]
+- ["V5Guaka20DefaultHelpGenerator", "errorString"]
+- ["V5Guaka20DefaultHelpGenerator", "exampleSection"]
+- ["V5Guaka20DefaultHelpGenerator", "flagsSection"]
+- ["V5Guaka20DefaultHelpGenerator", "helpMessage"]
+- ["V5Guaka20DefaultHelpGenerator", "informationSection"]
+- ["V5Guaka20DefaultHelpGenerator", "init"]
+- ["V5Guaka20DefaultHelpGenerator", "subCommandsSection"]
+- ["V5Guaka20DefaultHelpGenerator", "suggestionMessage"]
+- ["V5Guaka20DefaultHelpGenerator", "usageSection"]
+- ["P5Guaka13HelpGenerator", "aliasesSection"]
+- ["P5Guaka13HelpGenerator", "commandDescriptionSection"]
+- ["P5Guaka13HelpGenerator", "commandHelp"]
+- ["P5Guaka13HelpGenerator", "deprecationMessage"]
+- ["P5Guaka13HelpGenerator", "deprecationSection"]
+- ["P5Guaka13HelpGenerator", "errorHelpMessage"]
+- ["P5Guaka13HelpGenerator", "errorString"]
+- ["P5Guaka13HelpGenerator", "exampleSection"]
+- ["P5Guaka13HelpGenerator", "flagsSection"]
+- ["P5Guaka13HelpGenerator", "helpMessage"]
+- ["P5Guaka13HelpGenerator", "informationSection"]
+- ["P5Guaka13HelpGenerator", "init"]
+- ["P5Guaka13HelpGenerator", "subCommandsSection"]
+- ["P5Guaka13HelpGenerator", "suggestionMessage"]
+- ["P5Guaka13HelpGenerator", "usageSection"]
+- ["P5Guaka13HelpGenerator", ""]
+depends-nominal:
+- "V5Guaka20DefaultHelpGenerator"
+- "P5Guaka13HelpGenerator"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.swiftmodule"
+interface-hash: "627517b4fbdfd0a958d80211882ddbad"

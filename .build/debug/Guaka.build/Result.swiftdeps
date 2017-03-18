@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result"
+provides-nominal:
+- "O5Guaka6Result"
+provides-member:
+- ["O5Guaka6Result", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Result"
+- "Error"
+- "String"
+depends-member:
+- ["O5Guaka6Result", "Error"]
+- ["O5Guaka6Result", "String"]
+- ["O5Guaka6Result", "error"]
+- ["O5Guaka6Result", "message"]
+- ["O5Guaka6Result", "success"]
+depends-nominal:
+- "O5Guaka6Result"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.swiftmodule"
+interface-hash: "de4701c87d56c2140d83d01cb0d01973"

@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/master.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/CharacterSet.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/CharacterSet.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/CharacterSet.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/CharacterSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/CharacterSet.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/Regex.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/Regex.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/Regex.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/Regex~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/Regex.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/ScannerResult.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/ScannerResult.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/ScannerResult.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/ScannerResult~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/ScannerResult.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/StringExtension.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringExtension.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringExtension.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringExtension.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/StringScanner.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringScanner.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringScanner.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/StringScanner.build/StringScanner.swiftdeps"
+  }
+}

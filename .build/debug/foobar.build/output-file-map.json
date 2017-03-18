@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/master.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/main.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/main.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/main.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/main.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/root.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/root.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/root.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/root~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/root.swiftdeps"
+  },
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/setup.swift": {
+    "dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/setup.d",
+    "object": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/setup.swift.o",
+    "swiftmodule": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/setup~partial.swiftmodule",
+    "swift-dependencies": "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/.build/debug/foobar.build/setup.swiftdeps"
+  }
+}

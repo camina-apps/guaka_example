@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ScannerResult"
+- "Containable"
+provides-nominal:
+- "O13StringScanner13ScannerResult"
+- "P13StringScanner11Containable"
+- "Vs5Range"
+- "Vs11ClosedRange"
+provides-member:
+- ["O13StringScanner13ScannerResult", ""]
+- ["P13StringScanner11Containable", ""]
+- ["Vs5Range", ""]
+- ["Vs11ClosedRange", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ScannerResult"
+- !private "BooleanLiteralType"
+- "String"
+- "CastingPrecedence"
+- "Character"
+- "Bool"
+- "ClosedRange"
+- "Range"
+- "Containable"
+depends-member:
+- ["Vs11ClosedRange", "Bool"]
+- !private ["Vs11ClosedRange", "Bound"]
+- ["Vs11ClosedRange", "Character"]
+- !private ["Vs11ClosedRange", "String"]
+- ["Vs11ClosedRange", "contains"]
+- ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["P13StringScanner11Containable", "Bool"]
+- ["P13StringScanner11Containable", "Character"]
+- !private ["P13StringScanner11Containable", "String"]
+- ["P13StringScanner11Containable", "contains"]
+- ["P13StringScanner11Containable", ""]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "String"]
+- ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Vs5Range", "Bool"]
+- !private ["Vs5Range", "Bound"]
+- ["Vs5Range", "Character"]
+- !private ["Vs5Range", "String"]
+- ["Vs5Range", "contains"]
+- ["Vs5Range", "deinit"]
+- ["O13StringScanner13ScannerResult", "ScannerResult"]
+- ["O13StringScanner13ScannerResult", "String"]
+- ["O13StringScanner13ScannerResult", "end"]
+- ["O13StringScanner13ScannerResult", "none"]
+- ["O13StringScanner13ScannerResult", "performIfValue"]
+- ["O13StringScanner13ScannerResult", "value"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- "P13StringScanner11Containable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "Vs5Range"
+- "O13StringScanner13ScannerResult"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "359256729b65ac4721cd630d28ff89e2"
