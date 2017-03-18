@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "2d4e88c8eac02eb2d057ffc1c1e2e1bb"
-build_time: [543178867, 347107000]
-inputs:
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/CharacterSet.swift": [543178866, 0]
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/Regex.swift": [543178866, 0]
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/ScannerResult.swift": [543178866, 0]
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/StringExtension.swift": [543178866, 0]
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Packages/StringScanner-0.2.0/Sources/StringScanner.swift": [543178866, 0]
