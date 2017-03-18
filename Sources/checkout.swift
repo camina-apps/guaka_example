@@ -5,16 +5,16 @@ var checkoutCommand = Command(
 
 
 private func configuration(command: Command) {
-
-  command.add(flags: [
-    // Add your flags here
-    ]
-  )
-
+  command.add(flags: [])
   // Other configurations
 }
 
 private func execute(flags: Flags, args: [String]) {
-  // Execute code here
+
+  if let input = args.first {
+    print("You passed \(input) to the checkout command")
+    return
+  }
+
   print("checkout called whoop whoop")
 }

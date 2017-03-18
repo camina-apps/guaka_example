@@ -1,8 +1,8 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "ecae25115cdd5b2f981009f239345aeb"
-build_time: [543182918, 275489000]
+build_time: [543184403, 727281000]
 inputs:
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/checkout.swift": [543182463, 0]
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/checkout.swift": [543184397, 0]
   "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/main.swift": [543178597, 0]
-  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/root.swift": [543182912, 0]
+  "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/root.swift": [543184128, 0]
   "/Users/carmen/Developer/Swift_Meetup/Guaka/foobar/Sources/setup.swift": [543179918, 0]

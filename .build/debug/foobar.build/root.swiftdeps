@@ -5,19 +5,19 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "configuration"
 - !private "BooleanLiteralType"
-- "execute"
 - "StringLiteralType"
-- !private "print"
-- !private "UnicodeScalarType"
-- !private "Flag"
-- !private "String"
-- !private "=="
-- !private "Flags"
-- "rootCommand"
-- !private "Array"
 - "Command"
+- !private "Flags"
+- !private "String"
+- "rootCommand"
+- "execute"
+- "configuration"
+- !private "=="
+- !private "print"
+- !private "Flag"
+- !private "Array"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["Ps9AnyObject", "add"]
 - ["Ps9AnyObject", "init"]
