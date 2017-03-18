@@ -1,9 +1,10 @@
-# guaka_example
+# guaka example
 command line interface framework guaka example
+https://github.com/oarrabi/Guaka
 
 run ```swift build```
 
-after you bild the CLI named **foobar** you can try it
+after you bild the CLI named **foobar** you can try it out
 
 * ```.build/debug/foobar --help```
 * ```.build/debug/foobar --version```
