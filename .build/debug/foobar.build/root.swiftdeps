@@ -5,46 +5,63 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "StringLiteralType"
-- !private "Flags"
-- "Command"
-- !private "String"
-- !private "Array"
-- "rootCommand"
-- "execute"
 - "configuration"
+- !private "BooleanLiteralType"
+- "execute"
+- "StringLiteralType"
 - !private "print"
+- !private "UnicodeScalarType"
+- !private "Flag"
+- !private "String"
+- !private "=="
+- !private "Flags"
+- "rootCommand"
+- !private "Array"
+- "Command"
 depends-member:
 - !private ["Ps9AnyObject", "add"]
 - ["Ps9AnyObject", "init"]
 - !private ["Sa", "Element"]
 - !private ["Ps23BidirectionalCollection", "Element"]
 - !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps10Collection", "Element"]
 - !private ["C5Guaka7Command", "add"]
 - ["C5Guaka7Command", "init"]
 - ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["V5Guaka4Flag", "init"]
+- !private ["P5Guaka9FlagValue", "_getBuiltinLogicValue"]
+- !private ["P5Guaka9FlagValue", "deinit"]
 - ["P5Guaka9FlagValue", "init"]
+- !private ["V5Guaka5Flags", "getBool"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps9Indexable", "Element"]
 - !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "Element"]
 - !private ["Ps16MutableIndexable", "Element"]
+- !private ["Sq", "deinit"]
 - !private ["Ps22RandomAccessCollection", "Element"]
 - !private ["Ps21RandomAccessIndexable", "Element"]
 - !private ["Ps26RangeReplaceableCollection", "Element"]
@@ -55,16 +72,19 @@ depends-member:
 - ["Ps20TextOutputStreamable", "init"]
 - !private ["Ps14_ArrayProtocol", "Element"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Sa"
 - !private "Ps23BidirectionalCollection"
 - !private "Ps22BidirectionalIndexable"
+- !private "Sb"
 - !private "Ps10Collection"
 - "C5Guaka7Command"
 - "Ps10Comparable"
@@ -74,11 +94,14 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "V5Guaka4Flag"
 - "P5Guaka9FlagValue"
+- !private "V5Guaka5Flags"
 - "Ps8Hashable"
 - !private "Ps9Indexable"
 - !private "Ps13IndexableBase"
@@ -86,6 +109,7 @@ depends-nominal:
 - "Ps10MirrorPath"
 - !private "Ps17MutableCollection"
 - !private "Ps16MutableIndexable"
+- !private "Sq"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps21RandomAccessIndexable"
 - !private "Ps26RangeReplaceableCollection"
@@ -96,6 +120,7 @@ depends-nominal:
 - "Ps20TextOutputStreamable"
 - !private "Ps14_ArrayProtocol"
 - !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
 - "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
